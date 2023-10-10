@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<link rel="stylesheet" href="calculator3.css">
+<script src="calculator3.js"></script>
+<header>
+  <h1>
+      <h1 class="title"><img src = "calcakeibo.PNG" width="100" height="100"></h1>
+      <nav class="nav">
+          <ul class="menu-group">
+              <li class="menu-item"><a href="home.html">home</a></li>
+              <li class="menu-item"><a href="list2.html">買い物リスト</a></li>
+              <li class="menu-item"><a href="kakeibo.html">家計簿</a></li>
+              <a href="" onclick="window.history.back()">戻る</a>
+          </ul>
+      </nav>
+  </h1>
+</header>
+<head>
+  <meta charset="utf-8">
+ 
+</head>
+ 
+<body>
+  <form name="dentaku">
+    <table>
+      <!-- 液晶画面部分 -->
+      <tr>
+        <td colspan="4">
+          <input type="text" class="display" name="display" value="" disabled>
+        </td>
+      </tr>
+ 
+      <!-- 上から1段目（7~9＋÷） -->
+      <tr>
+        <td><input type="button" value="1" onclick="get_calc(this)"></td>
+        <td><input type="button" value="2" onclick="get_calc(this)"></td>
+        <td><input type="button" value="3" onclick="get_calc(this)"></td>
+        <td><input type="button" value="4" onclick="get_calc(this)"></td>
+        <td><input type="button" value="5" onclick="get_calc(this)"></td>
+        <td><input type="button" value="+" class="operator" name="div_btn" onclick="get_calc(this)"></td>
+        <td><input type="button" value="-" class="operator" name="div_btn" onclick="get_calc(this)"></td>
+      </tr>
+        
+      <!-- 上から2段目（4~6＋×） -->
+      <tr>
+        <td><input type="button" value="6" onclick="get_calc(this)"></td>
+        <td><input type="button" value="7" onclick="get_calc(this)"></td>
+        <td><input type="button" value="8" onclick="get_calc(this)"></td>
+        <td><input type="button" value="9" onclick="get_calc(this)"></td>
+        <td><input type="button" value="0" onclick="get_calc(this)"></td>
+        <td><input type="button" value="×" class="operator" name="div_btn" onclick="get_calc(this)"></td>
+        <td><input type="button" value="÷" class="operator" name="div_btn" onclick="get_calc(this)"></td>
+      </tr>
+ 
+      <!-- 上から3段目（0/C/=/+) -->
+      <tr>
+        <td><input type="button" value="C" onclick="get_calc(this)"></td>
+        <td><input type="button" value="=" class="equal" onclick="get_calc(this)"></td>
+        <td><input type="button" value="%" class="sale" onclick="get_calc(this)"></td>
+      </tr>
+
+ 
+    </table>
+  </form>
+
+  <input type="button" onclick="history.back()" value="戻る">
+</body>
+</html>
