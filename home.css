@@ -1,0 +1,30 @@
+html{
+    background-color: orange;
+}
+
+.topimage{
+    
+}
+.topimage img{
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+}
+
+
+.outer{
+    
+}
+
+.title{
+    
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
