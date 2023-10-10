@@ -1,0 +1,21 @@
+html{
+    background-color: rgb(228, 212, 157)
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    align-items: center;
+  }
+   
+  .title {
+    margin-right: auto;
+  }
+   
+  .menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+  }
