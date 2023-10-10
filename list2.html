@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <h1>
+            <h1 class="title"><img src = "calcakeibo.PNG" width="100" height="100"></h1>
+            <nav class="nav">
+                <ul class="menu-group">
+                    <li class="menu-item"><a href="home.html">home</a></li>
+                    <li class="menu-item"><a href="calculator3.html">計算機</a></li>
+                    <li class="menu-item"><a href="kakeibo.html">家計簿</a></li>
+                </ul>
+            </nav>
+        </h1>
+    </header>
+    <head> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="list2.css">
+        <title> 買い物リスト </title>
+    </head>
+    <body>
+        <h1>入力</h1>
+        <form name="買い物リスト">
+            <input class="value" type="text" name="" id="task"> 
+            <button class="submit" type="button">追加</button>
+        </form>
+        
+        <div id="table">
+            <h2>買い物リスト</h2>
+            <ul class = "shoppinglist"></ul>
+        </div>
+        
+        <div id="action">
+            <input type="button" onclick="history.back()" value="戻る">
+        </div>
+    <script src="list2.js"></script>           
+    </body>
+</html>
